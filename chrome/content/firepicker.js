@@ -380,7 +380,7 @@ Firebug.FirepickerModel = extend(Firebug.Module, {
       var result = original.apply(this, arguments);
       if (this.editor) { self.hookIntoCSSEditor(this.editor); }
       return result;
-    }
+    };
   },
   
   openPopup: function(editor, colorCell, color, callback) {
